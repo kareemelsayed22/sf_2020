@@ -29,10 +29,10 @@ public class Addition {
        //System.out.println("Size of array is " + nums.length);
       
      //promt the users for numbers to add to array
-     System.out.println("What numbers would you like to add?");
+     System.out.println("What numbers would you like to add: ");
      for(int i=0;i<nums.length;i++) {
         nums[i] = scan.nextInt();
-        System.out.println("Please enter your next number!");
+        System.out.println("Please enter your next number: ");
       }
    //print array sum
        int sum = 0;
